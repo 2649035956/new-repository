@@ -23,6 +23,7 @@ Markdown, 文本修饰语言，用特殊符号修饰正文效果<br>
 
 ~~测试文本~~
 
+这是一段测试文本，用`关键字`修饰
 ##分割线
   用\-\-\-表示分割线
 ---
@@ -55,3 +56,33 @@ Markdown, 文本修饰语言，用特殊符号修饰正文效果<br>
   * 测试二
     2. 测试三
 
+### 表格(对齐方式)
+名称|科目|周期
+--|:--:|--:
+colin1|c|32
+colin2|c++|32
+colin3|online and mysql|32
+colin4|linux|32
+
+### 代码片段
+```c
+	#include <stdio.h>
+	using namespace std;
+	int main(void)
+	{
+		printf("test code\n");
+		return 0;
+	}
+```
+```cpp
+	#include <iostream>
+```
+```python
+	import <os>
+```
+```bash
+	echo "test"
+	pwd
+	ps aux
+	ls -l
+```
