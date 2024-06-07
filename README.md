@@ -22,3 +22,36 @@ Markdown, 文本修饰语言，用特殊符号修饰正文效果<br>
 ***测试文本***
 
 ~~测试文本~~
+
+##分割线
+  用\-\-\-表示分割线
+---
+
+##引用效用\>表示
+> addddd
+>> add
+>>> 三级引用
+>>>> 四级引用
+
+## 列表修饰符
+### 无序列表 \*
+* turn
+  * reverse 1999
+    * regules
+* open world
+  * genshin
+    * hutao
+### 有序列表 1.
+1. colin
+  1. c
+  2. c++
+  3. online and mysql
+2. school
+  1. c++
+  2. java
+  3. struct
+### 混合列表
+1. 测试一
+  * 测试二
+    2. 测试三
+
