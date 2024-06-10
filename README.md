@@ -160,3 +160,5 @@ colin4|linux|32
 ### 插入图片
 
 	![图片](地址 "悬停标题")
+举例
+![test](https://picture.gptkong.com/20240610/14510e45db07a84c82bdfdff2547662ff7.png "stop")
