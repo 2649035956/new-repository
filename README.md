@@ -33,14 +33,34 @@
 	git config --global user.name //用户名
 	ssh-keygen-trsa -c“注册邮箱” //创建本地密文
 **去对应的路径寻找密文**
+
 	rsa.pub 复制密文，粘贴到 settings ->SSH key and GPG ->new ssh key ->粘贴
+
 	ssh -T gitagithub.com //测试关联是否成功
+
 ### 2.为目标仓库起别名，定位目标仓库，后续上传
 	git remote add orgin“ssh地址”//为ssh仓库地址创建别名为origin
 	git remote remove orgin //删除origin别名
 	git remote add orgin“ssh地址”//为ssh仓库地址创建别名为origin
 
-Markdown, 文本修饰语言，用特殊符号修饰正文效果<br>
+## 本地设备与云端仓库的交互逻辑:
+![pct](https://picture.gptkong.com/20240610/14510e45db07a84c82bdfdff2547662ff7.png "逻辑")
+	git add code.c //添加内容
+	git rm //删除本地文件并删除仓库数据
+	git restroe //恢复被删除(仓库存在)
+## 代码更新的依赖关系被破坏:
+	本地内容要比云端新,完成更新替换，但是如果直接修改云端内容,导致,本地内容无法再次提交
+	先拉取 git pul 云端内容 与本地内容合井或操作,而后再次推即可
+	git pull --rebase origin master
+	git rebase --skip“忽路本地内容 保留云端内容
+	git rebase --abort“忽略本地内容 保留云端内容
+	git rebase --continue“忽路本地内容 保留云端内容
+## 下载开源代码:
+	git clone "https仓库地址” //下载开源项目code资源
+## 分支Branch:
+	关于分支的相关命令，创建分支、 选择分支、 合井分支等等
+
+## Markdown, 文本修饰语言，用特殊符号修饰正文效果<br>
 
 
 ## 标题修饰符\#
