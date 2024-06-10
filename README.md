@@ -27,8 +27,18 @@
 ![picture](https://picture.gptkong.com/20240610/1439fc8f77500e4428bcf614ff19d4a92d.png "软件")
 ## 设备认证:
 ### 1、让网站的账户与设备绑定，后续完成代码的管理，上传下载
-	
-
+	git init//创建本地仓库	*后续对仓库的操作，都要在仓库位置(master)
+	git config-list //查看git的配置文件
+	git config --global user.email //邮箱
+	git config --global user.name //用户名
+	ssh-keygen-trsa -c“注册邮箱” //创建本地密文
+**去对应的路径寻找密文**
+	rsa.pub 复制密文，粘贴到 settings ->SSH key and GPG ->new ssh key ->粘贴
+	ssh -T gitagithub.com //测试关联是否成功
+### 2.为目标仓库起别名，定位目标仓库，后续上传
+	git remote add orgin“ssh地址”//为ssh仓库地址创建别名为origin
+	git remote remove orgin //删除origin别名
+	git remote add orgin“ssh地址”//为ssh仓库地址创建别名为origin
 
 Markdown, 文本修饰语言，用特殊符号修饰正文效果<br>
 
