@@ -1,6 +1,10 @@
 #             Github
 
-## 关键字查询
+## 关键字查询:
+
+	awesome,去此标签类别中查询项目
+	(python) tutorial , 查询(python)相关资料、书籍、文档
+	(socket) sample , 查询对应技术(socket)对应的代码
 
 Markdown, 文本修饰语言，用特殊符号修饰正文效果<br>
 
