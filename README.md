@@ -91,3 +91,10 @@ colin4|linux|32
 	ps aux
 	ls -l
 ```
+### 超链接技术
+
+[github](https://www.github.com "点击访问")
+
+### 插入图片
+
+[图片](地址 "悬停标题")
