@@ -108,14 +108,14 @@
 ### 有序列表 
 
 1. colin
-  1. c
-  2. c++
-  3. online and mysql
+	1. c
+	2. c++
+	3. online and mysql
 
 2. school
-  1. c++
-  2. java
-  3. struct
+	1. c++
+	2. java
+	3. struct
 
 ### 混合列表
 1. 测试一
